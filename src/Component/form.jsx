@@ -1,10 +1,14 @@
+import "./Form.css"
 
 
 
-const Form = ()=>{
+const Form = () => {
+  return (
+    <div>
+      <h1>React Form</h1>
+      <div className="card"></div>
+    </div>
+  );
+};
 
-}
-
-
-
-export default Form 
+export default Form;
